@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "23631217"))
 API_HASH = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002174641763"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002338165303"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6139759254"))
@@ -36,7 +36,7 @@ JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_PIC = os.environ.get("START_PIC","")
+START_PIC = os.environ.get("START_PIC","https://graph.org/file/b40ec933c5cfe1c4f92d0-1c4eb4466dbd880cc5.jpg https://graph.org/file/afb26904467e6d288066d-e47db06938c1b2426d.jpg https://graph.org/file/93ab4f396b7e1702c0f1e-9240161b97e8d7ad9b.jpg https://graph.org/file/784c2dbbbcc0a5b8f8481-bedb60c5a57f254efc.jpg https://graph.org/file/6342f9ae8571659b764d2-adb46a36274462e7f5.jpg https://graph.org/file/58588618cd2547af98235-c024050c84364be078.jpg https://graph.org/file/413bdcc12fffa83f2e44f-d55d528ec54053892f.jpg https://graph.org/file/4bb4161b9b29ca7a9a68b-09129a323354e7ca94.jpg https://graph.org/file/afb26904467e6d288066d-e47db06938c1b2426d.jpg  https://graph.org/file/1c9861f4bff950b2ccb6b-4a686c9d9244369aeb.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(6139759254)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
